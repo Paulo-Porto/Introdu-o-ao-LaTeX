@@ -1,0 +1,73 @@
+\documentclass[a4paper]{article}
+\usepackage[top=2cm, bottom=2cm, left=2.5cm, right=2.5cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amsfonts,amssymb}
+\usepackage[portuguese]{babel}
+
+\begin{document}
+
+\begin{enumerate}
+
+	\item A tabela abaixo representa as derivadas básicas.
+	$ \\ $
+	
+	\begin{tabular}{cc} %As opcoes aqui sao "l", "r" ou "c" para alinhar dentro da tabela
+	
+			Função & Derivada \\
+			$ f(x) = x^n $ & $ f'(x) = nx^{n-1} $ \\
+			$ f(x) = \log_a x $ & $ \dfrac{1}{(\ln a)x} $ \\
+	
+	\end{tabular}
+	
+	$ \\ $
+
+	\begin{tabular}{|c|c|} %As opcoes aqui sao "l", "r" ou "c" para alinhar dentro da tabela
+	
+			Função & Derivada \\
+			$ f(x) = x^n $ & $ f'(x) = nx^{n-1} $ \\
+			$ f(x) = \log_a x $ & $ \dfrac{1}{(\ln a)x} $ \\
+	
+	\end{tabular}
+
+	$ \\ $
+	
+	\begin{tabular}{|c|c|} %As opcoes aqui sao "l", "r" ou "c" para alinhar dentro da tabela
+	
+			\hline
+			Função & Derivada \\ \hline
+			$ f(x) = x^n $ & $ f'(x) = nx^{n-1} $ \\ \hline
+			$ f(x) = \log_a x $ & $ \dfrac{1}{(\ln a)x} $ \\ \hline
+	
+	\end{tabular}
+
+	$ \\ $
+	\begin{center} % Comando para centralizar a tabela
+		\begin{tabular}{|c|c|} %As opcoes aqui sao "l", "r" ou "c" para alinhar dentro da tabela
+	
+				\hline
+				Função & Derivada \\ \hline
+				$ f(x) = x^n $ & $ f'(x) = nx^{n-1} $ \\ \hline
+				$ f(x) = \log_a x $ & $ \dfrac{1}{(\ln a)x} $ \\ \hline
+	
+		\end{tabular}
+	\end{center}
+	
+	$ \\ $
+	\item A Tabela \ref{minha-tabela-01} abaixo representa as derivadas básicas.
+	\begin{table}[!htb] % Comando para nomearmos a depois citar a tabela
+	\centering
+		\begin{tabular}{|c|c|} %As opcoes aqui sao "l", "r" ou "c" para alinhar dentro da tabela
+	
+				\hline
+				Função & Derivada \\ \hline
+				$ f(x) = x^n $ & $ f'(x) = nx^{n-1} $ \\ \hline
+				$ f(x) = \log_a x $ & $ \dfrac{1}{(\ln a)x} $ \\ \hline
+	
+		\end{tabular}
+		\caption{Tabela Básica de Derivadas.}
+		\label{minha-tabela-01}
+	\end{table}
+
+\end{enumerate}
+
+\end{document}
